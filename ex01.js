@@ -1,7 +1,7 @@
 function somarNumeros() {
     let soma=0;
     let continuar = true;
-    while <continuar) {
+    while (continuar) {
         let numero = parseFloat(prompt(SDigite um número para somar: "));
             if (!isNaN(numero)) {
                 soma += numero;
