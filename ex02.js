@@ -1,12 +1,8 @@
-let tempo = 10;
+function contagemRegressiva() {
+    alert("Prepare-se para a contagem!");
 
-const contagemRegressiva = setInterval(() => {
-    if (tempo > 0) {
-        console.log(tempo + "...");
-        tempo--;
-    } else {
-        console.log("0");
-        console.log("Lançamento realizado!");
-        clearInterval(contagemRegressiva); 
+    for (let i = 10; i >= 0; i--) {
+        alert("Contagem: " + i);
     }
-}, 1000);
+    alert("Lançamento Realizado!");
+}
