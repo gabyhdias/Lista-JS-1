@@ -1,4 +1,4 @@
-function ContagemRegressiva() {
+function contagemRegressiva() {
     alert("Prepare-se para a contagem!");
 
     for (let i = 10; i >= 0; i--) {
